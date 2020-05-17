@@ -1,4 +1,9 @@
-class Application < Sinatra::Base
-  # Write your code here!
+application.
 
+File: ./app.rb
+
+class Application < Sinatra::Base
+  get '/' do
+    erb :index
+  end
 end
